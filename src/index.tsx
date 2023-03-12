@@ -1,4 +1,4 @@
-import { ChakraProvider, theme, Center, extendTheme } from "@chakra-ui/react"
+import { ChakraProvider, theme, Center } from "@chakra-ui/react"
 import * as React from "react"
 import * as ReactDOM from "react-dom/client"
 import * as serviceWorker from "./serviceWorker"

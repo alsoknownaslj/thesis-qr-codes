@@ -1,4 +1,4 @@
-import { Box, FormLabel, Heading, HTMLChakraProps, Input } from "@chakra-ui/react";
+import { Box, Heading, HTMLChakraProps, Input } from "@chakra-ui/react";
 
 type UrlInputChangeListener = { onChange(text: string): void }["onChange"];
 

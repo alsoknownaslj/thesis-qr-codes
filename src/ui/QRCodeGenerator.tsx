@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Image, Spacer, VStack, Accordion, AccordionItem, AccordionIcon, AccordionButton, AccordionPanel, FormLabel, Switch, FormControl, HStack, Stack } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image, Spacer, VStack, Accordion, AccordionItem, AccordionIcon, AccordionButton, AccordionPanel, Stack } from "@chakra-ui/react";
 import { useState } from "react";
 import { QRImage } from "./QRImage";
 import { ColorPicker } from "./ColorPicker";
