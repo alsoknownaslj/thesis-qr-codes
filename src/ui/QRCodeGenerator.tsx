@@ -106,14 +106,6 @@ export function QRCodeGenerator() {
         </AccordionItem>
       </Accordion>
     </Stack>
-{/* 
-      <FormControl display='flex' alignItems='center' w='30%'>
-        <FormLabel><Heading size='md'>Change QR Style?</Heading></FormLabel>
-        <Switch colorScheme='blackAlpha' size='lg' 
-          onChange={() => {
-            setQrStyle(qrStyle === 'dots' ? 'squares' : 'dots');
-          }} />
-      </FormControl> */}
 
       <QRImage
         value={encoded}
