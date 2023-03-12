@@ -20,7 +20,7 @@ export function QRCodeGenerator() {
   const [bg, setBg] = useState('#ffffff');
   const [fg, setFg] = useState('#000000');
   const [image, setImage] = useState('');
-  const [qrStyle, setQrStyle] = useState<"dots" | "squares">('dots');
+  // const [qrStyle, setQrStyle] = useState<"dots" | "squares">('dots');
 
 
   return (
@@ -112,7 +112,7 @@ export function QRCodeGenerator() {
         bgColor={bg}
         fgColor={fg}
         logoImage={image}
-        qrStyle={qrStyle}
+        qrStyle='dots'
       />
     </VStack>
   );
